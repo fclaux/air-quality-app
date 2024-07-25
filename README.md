@@ -29,7 +29,20 @@ cd air-quality-app
 ```bash
 cd initial_version  # or corrected_version, or improved_version
 ```
-3. **Open the index.html file in your browser:**
+
+3. **Retrieve your API Key:**
+   - Go to [IQAir](https://www.iqair.com/fr/france) and create a free account.
+   - Once registered, obtain your API key from the dashboard.
+
+4. **Configure the API Key:**
+   - Open `main.js` in the project folder.
+   - Locate the line where the API key is set, which looks like this:
+     ```javascript
+     const API_KEY = 'YOUR_API_KEY_HERE';
+     ```
+   - Replace `'YOUR_API_KEY_HERE'` with the API key you obtained from IQAir.
+    
+5. **Open the index.html file in your browser:**
 
 You can simply open the index.html file in a web browser to run the application.
 ## Contributions
